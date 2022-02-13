@@ -1,0 +1,250 @@
+html {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    background: rgb(48, 41, 66);
+    color: #333;
+  }
+
+  .header {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 0px;
+    border-bottom: white;
+    border-top: transparent;
+    border-style: solid;
+  }
+  
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    list-style-type: none;
+    flex: 2 1 auto;
+    
+  }
+
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    padding: 4px 32px;
+    margin-left: -50px;
+  }
+
+  .modal {
+    background: transparent;
+    width: 480px;
+    padding: 20px;
+    margin:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 100px;
+    color: white;
+    margin-bottom: 100px;
+  }
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    flex-wrap: nowrap;
+}
+
+.smiley {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.text {
+    font-family: Cambria, Cochin, Arial, Helvetica, sans-serif;
+}
+
+.kvadrat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+img[src="macka.jpg"] {
+    width: 450px;
+    height: 300px;
+    margin-top: 0;
+    margin-right: 150px;
+    border-color: transparent;
+
+}
+
+.kvadrat2 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.modal2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 12px;
+}
+
+.hrana {
+    margin-bottom: 50px;
+}
+
+.kvadrat3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    background-color: #E5E7EB;
+    padding-bottom: 60px;
+}
+
+.text2 {
+    width: 600px;
+    height: 200px;
+    color: black;
+    font-size: large;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.anon {
+    justify-content: flex-start;
+    padding-left: 500px;
+    margin-top: -25px;
+    font-weight: bold;
+}
+
+.kvadrat4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    background-color: #3882f6;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 12px;
+    border-color: #3882f6;
+}
+
+.text3 {
+    color: white;
+    margin: 1px;
+}
+
+.naslov11 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.button2 {
+    margin-left: 100px;
+    height: 30px;
+    width: 100px;
+    border-style: solid;
+    border-radius: 12px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 41, 66);
+    padding: 10px;
+}
+
+.footertext {
+    color: white;
+    font-size: small;
+    font-weight: 200;
+}
+
+figcaption {
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+li {
+    margin: 30px;
+}
+
+.gifnaslov {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img[src="666.gif"] {
+    width: 90px;
+    height: 70px;
+    margin-top: -15px;
+    margin-left: 0px;
+    border-color: transparent
+}
